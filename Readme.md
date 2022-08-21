@@ -44,11 +44,11 @@ By doing so, these patterns increase flexibility in carrying out this communicat
 * Visitor Method
 
 ### Advantages of using Design Patterns
-Reusability 
-Transparent
-Established Solution 
-Established Communication
-Efficient Development 
+* Reusability 
+* Transparent
+* Established Solution 
+* Established Communication
+* Efficient Development 
 
 ### proxy vs facade
 The proxy pattern is where one object acts as an interface to another object.
