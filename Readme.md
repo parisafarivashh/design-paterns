@@ -41,7 +41,10 @@ By doing so, these patterns increase flexibility in carrying out this communicat
 * State Method
 * Strategy Method
 * Template Method
-* Visitor Method
+* Visitor Method :The purpose of a Visitor pattern is to define a new operation
+         without introducing the modifications to an existing object structure.
+         So the dilemma is that you need to add methods to the base class,
+         but you can’t touch the base class
 
 ### Advantages of using Design Patterns
 * Reusability 
