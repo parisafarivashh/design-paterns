@@ -35,7 +35,10 @@ By doing so, these patterns increase flexibility in carrying out this communicat
 * Chain of Responsibility Method
 * Command Method
 * Iterator Method
-* Mediator Method
+* Mediator Method : ```It defines the interface for communication between colleague objects.```      
+              ```1- Reduce the number of sub-classes: When you have realized that you have created a lot of unnecessary sub-classes, then it is preferred                to use the Mediator method to avoid these unnecessary sub-classes.```
+              ``` 2- Air Traffic Controller: Air traffic controller is a great example of a mediator pattern where the airport control room works as a                  mediator for communication between different flights.```
+
 * Memento Method
 * Observer Method: 
          ``` Multi-Dependency: We should use this pattern when multiple objects are dependent on the state of one object as it provides a neat and
