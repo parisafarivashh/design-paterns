@@ -4,9 +4,9 @@ creational design patterns are design patterns that deal with object
 creation mechanisms.
 trying to create objects in a manner suitable to the situation.
 
-* Factory Method : The factory design pattern is used when we have a 
+* Factory Method : ```The factory design pattern is used when we have a 
                      superclass with multiple sub-classes and based on input,
-                     we need to return one of the sub-class
+                     we need to return one of the sub-class```
                      
 * Abstract Factory Method
 * Builder Method
@@ -22,9 +22,9 @@ achieving multiple goals altogether
 * Bridge Method
 * Composite Method
 * Decorator Method
-* Facade Method : It will help us to hide the complexity of the subsystem.
-* Proxy Method: : When you want to add some additional behaviors to an 
-                  object of some existing class without changing the client code.
+* Facade Method : ```It will help us to hide the complexity of the subsystem.```
+* Proxy Method: :``` When you want to add some additional behaviors to an 
+                  object of some existing class without changing the client code.```
 * FlyWeight Method
 
 ### Behavioral Design Pattern:
@@ -37,16 +37,23 @@ By doing so, these patterns increase flexibility in carrying out this communicat
 * Iterator Method
 * Mediator Method
 * Memento Method
-* Observer Method
+* Observer Method: 
+         ``` Multi-Dependency: We should use this pattern when multiple objects are dependent on the state of one object as it provides a neat and
+         well tested design for the same.```         
+         ```Getting Notifications: It is used in social media, RSS feeds, email subscription in which you have the option to follow or subscribe and you          receive latest notification. ```           
+         Disadvantages    
+         ```1) Random Notifications: All the subscribers present gets notification in the random order.
+         2) Risky Implementations: If the pattern is not implemented carefully, there are huge chances that you will end up with large complexity                  code.```
+
 * State Method
 * Strategy Method
 * Template Method
-* Visitor Method :The purpose of a Visitor pattern is to define a new operation
+* Visitor Method :```The purpose of a Visitor pattern is to define a new operation
          without introducing the modifications to an existing object structure.
          So the dilemma is that you need to add methods to the base class,
          but you can’t touch the base class.
          Shopping in a supermarket is another common example to explain how visitor patterns work. The person doing their grocery shopping puts                    everything they want in their shopping cart, which can be considered a set of elements from the object structure. 
-         The cashier then acts like a visitor, scanning prices and/or weighing each individual shopping item (i.e., element) to calculate the total cost.
+         The cashier then acts like a visitor, scanning prices and/or weighing each individual shopping item (i.e., element) to calculate the total                cost.```
 
 ### Advantages of using Design Patterns
 * Reusability 
