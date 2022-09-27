@@ -44,7 +44,9 @@ By doing so, these patterns increase flexibility in carrying out this communicat
 * Visitor Method :The purpose of a Visitor pattern is to define a new operation
          without introducing the modifications to an existing object structure.
          So the dilemma is that you need to add methods to the base class,
-         but you can’t touch the base class
+         but you can’t touch the base class.
+         Shopping in a supermarket is another common example to explain how visitor patterns work. The person doing their grocery shopping puts                    everything they want in their shopping cart, which can be considered a set of elements from the object structure. 
+         The cashier then acts like a visitor, scanning prices and/or weighing each individual shopping item (i.e., element) to calculate the total cost.
 
 ### Advantages of using Design Patterns
 * Reusability 
