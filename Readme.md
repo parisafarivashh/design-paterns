@@ -35,9 +35,17 @@ By doing so, these patterns increase flexibility in carrying out this communicat
 * Chain of Responsibility Method
 * Command Method
 * Iterator Method
-* Mediator Method : ```It defines the interface for communication between colleague objects.```      
-              ```1- Reduce the number of sub-classes: When you have realized that you have created a lot of unnecessary sub-classes, then it is preferred                to use the Mediator method to avoid these unnecessary sub-classes.```
-              ``` 2- Air Traffic Controller: Air traffic controller is a great example of a mediator pattern where the airport control room works as a                  mediator for communication between different flights.```
+* Mediator Method : ```It defines the interface for communication between colleague objects.      
+             1- Reduce the number of sub-classes: When you have realized that you have created a lot of unnecessary sub-classes, then it is preferred                  to use the Mediator method to avoid these unnecessary sub-classes.
+             2- Air Traffic Controller: Air traffic controller is a great example of a mediator pattern where the airport control room works as a                      mediator for communication between different flights.```
+     
+      Disadvantages of mediator design pattern  
+      1- The centralization of power is sometimes inefficient because suppose if any bug is encountered in the mediator     
+      the whole system cannot work. It will be shut down until the mediator is fixed.
+      2- The mediator can contain too much information, which can complex its structure. This property is also known as a god object.
+
+
+
 
 * Memento Method
 * Observer Method: 
